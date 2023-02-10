@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribhuwan</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Tribhuwan</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Welcome TO Our World</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, error vero assumenda atque
+                    veritatis totam doloribus voluptas
+                    maiores quia mollitia quae dignissimos, molestias esse ea!</p>
+                <a href="#">Get Staretd</a>
+            </div>
+
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        } 
+
+    </script>
+</body>
+
+</html>
